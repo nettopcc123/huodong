@@ -1,0 +1,370 @@
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 85px;
+    }
+}
+ 
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 96px;
+    }
+}
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 100px;
+    }
+}
+@media screen and (min-width: 400px) {
+    html {
+        font-size: 106px;
+    }
+}
+ 
+@media screen and (min-width: 440px) {
+    html {
+        font-size:117px;
+    }
+}
+ 
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 128px;
+    }
+}
+ 
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 170px;
+    }
+}
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 200px;
+    }
+}
+html {
+    font-size: 26.66vw;/* 表达式：100*100vw/320 */
+    height: 100%;
+}
+
+body{
+    height:100%;
+    background:#ac2a36;
+    overflow-x: hidden;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, button,th, td ,a ,span{
+	margin:0;
+    padding:0;
+    font-family: '';
+    font-size:0.12rem;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset, img {
+	border:0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol, ul ,li{
+	list-style:none;
+}
+q:before, q:after {
+	content:'';
+}
+abbr, acronym {
+	border:0;
+}
+textarea:focus, input:focus{
+    outline:none;
+}
+img{
+    max-height:100%;max-width: 100%;
+}
+button{
+    cursor:pointer;
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.16rem;
+    display: inline-block;
+    border-radius: 0.04rem;
+    text-decoration: none;
+    text-align: center;  
+    border:0px;
+    outline: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+input:not([type]), input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"] {
+    padding: 0.02rem 0.02rem;
+    outline: none;
+    border-radius:0.04rem;
+    width: 100%;
+}
+input {
+    -webkit-appearance: textfield;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus {box-shadow:0 0 0 60px #fff inset;}
+input, textarea, select, button {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0rem;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0rem;
+}
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 886240 */
+    src: url('//at.alicdn.com/t/font_886240_hf66ipy4gdm.eot');
+    src: url('//at.alicdn.com/t/font_886240_hf66ipy4gdm.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_886240_hf66ipy4gdm.woff') format('woff'),
+    url('//at.alicdn.com/t/font_886240_hf66ipy4gdm.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_886240_hf66ipy4gdm.svg#iconfont') format('svg');
+  }
+.iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-circle:before {
+    content: "\e7c4";
+}
+.topban{
+    width:3.75rem;
+    height: 5.61rem;
+    background-image: url(../img/topbg.jpg);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+}
+.toplist{
+    width: 3rem;
+    margin: 0px auto;
+    position: relative;
+    z-index: 1
+}
+.litit{
+    background:#feedcf;
+    width: 3rem;
+    margin: -17px auto 0;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    line-height: 0.44rem;
+}
+.litit .topltit{
+    color:#843f06;
+    float:left;
+    width:50%;
+    text-align: center;
+    font-size: 0.16rem;
+}
+.litit .toprtit{
+    color:#843f06;
+    float:right;
+    width:50%;
+    text-align: center;
+    font-size: 0.16rem;
+}
+.toplist li{
+    padding:0 0.1rem;
+    line-height: 0.44rem;
+    clear: both;
+    overflow: hidden;
+}
+.toplist li:nth-child(odd){
+    background:#fff8e8;
+}
+.toplist li:nth-child(even){
+    background:#feedcf;
+}
+
+.toplist .topl{
+    color:#843f06;
+    float:left;
+    width:50%;
+    text-align: center;
+    font-size: 0.14rem;
+}
+.toplist .topr{
+    color:#843f06;
+    float:right;
+    width:50%;
+    text-align: center;
+    font-size: 0.14rem;
+}
+.toplist .tico1{
+    width:0.22rem;
+    height: 0.28rem;
+    background-image: url(../img/icon.png);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-position: 0 0;
+    float:left;
+    margin-top: 0.09rem;
+}
+.toplist .tico2{
+    width:0.22rem;
+    height: 0.28rem;
+    background-image: url(../img/icon.png);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-position:0 -44px;
+    float:left;
+    margin-top: 0.09rem;
+}
+.toplist .tico3{
+    width:0.22rem;
+    height: 0.28rem;
+    background-image: url(../img/icon.png);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-position:0 -86px;
+    float:left;
+    margin-top: 0.09rem;
+}
+.toplist .tico{
+    width:0.22rem;
+    height: 0.28rem;
+    background-image: url(../img/icon.png);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-position:0 -131px;
+    float:left;
+    margin-top: 0.12rem;
+    line-height: 0.24rem!important;
+    color:#fff
+}
+.toplist .tif{
+    width:1rem;
+    float:left;
+    text-align: left;
+    padding-left:0.1rem;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden
+}
+.toplist .topr{
+    width:50%;
+    float:left;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden
+}
+.more{
+    text-align: center;
+    color: #585246;
+    width: 3rem;
+    background:#fff8e8;
+    margin:0 auto;
+    line-height: 0.44rem;
+}
+.step2{
+    width:3.09rem;
+    height: 2.92rem;
+    margin: 0.45rem auto 0.3rem;
+    background-image: url(../img/huodon2.png);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+}
+.step3{
+    width:3.09rem;
+    height: 0.5rem;
+    margin: 0rem auto 0.15rem;
+    background-image: url(../img/tit3.png);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+}
+.s3lis{
+    width:3.09rem;
+    background:#9f0b18;
+    border-radius:0.05rem;
+    margin:0 auto;
+    overflow: hidden;
+    color:#fff;
+    padding:0.08rem 0.1rem;;
+}
+.s3lis li{
+    line-height: 0.22rem;
+    margin-bottom: 0.08rem;
+    font-size: 0.12rem;
+}
+.s3lis li b{
+    margin-left:0.08rem;
+    font-size: 0.14rem;
+}
+.fonty{
+    color:#e8c104;
+}
+.copyright{
+    background:#9f0b18;
+    display: block;
+    width: 100%;
+    line-height: 0.3rem;
+    color:#fff;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.s3con{
+    padding-left:0.2rem;
+}
+.ball1{
+    width:0.5rem;
+    height: 0.52rem;
+    background-image: url(../img/ball2.png);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    position: absolute;
+    left: 0;
+    top:8rem;
+    z-index: 0
+}
+.ball2{
+    width:0.5rem;
+    height: 0.82rem;
+    background-image: url(../img/ball.png);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    position: absolute;
+    right: 0;
+    top:7rem;
+    z-index: 0
+}
+.ball3{
+    width:0.5rem;
+    height: 0.52rem;
+    background-image: url(../img/ball2.png);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    position: absolute;
+    left: 0;
+    bottom:0.3rem;
+    z-index: 2
+}
+.wb{
+    position: relative;
+    z-index: 0
+}
